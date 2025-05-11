@@ -5,8 +5,11 @@
 }
 
 body {
-    background-color: blue;
+    background:linear-gradient(#f4514f,#2196f3);
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200%;
 }
 
 .container {
@@ -30,11 +33,11 @@ body {
     height: 18vmin;
     width: 18vmin;
     border-radius: 10%;
-    border: none;
     box-shadow: 0 0 2px rgb(200,100,0 );
     font-size: 25px;
     color: red;
-    background-color: yellow;
+    background-color: #ffffff;
+    border: 2px solid #333;
 }
 
 #reset-btn ,#new-btn{
@@ -59,4 +62,8 @@ p {
 
 .hide {
     display: none;
+}
+
+#reset-btn {
+    margin-bottom: 130px;
 }
