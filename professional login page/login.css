@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+.wave {
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+
+.heading {
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.phone {
+    height: 300px;
+}
+
+.avatar {
+    height: 100px;
+}
+
+.forgot-password a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.content a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.right-container {
+    text-align: center;
+}
+
+.input-div {
+    margin: 10px;
+}
+
+.two {
+    margin-bottom: 2px;
+}
+
+.input {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* .input.active{
+    border: #17B8A6;
+} */
+
+i.active {
+    color: #17B8A6;
+
+}
+
+.button {
+    background-color: #17B8A6;
+    border: none;
+    padding: 10px;
+    width: 250px;
+    border-radius: 40px;
+    margin: 20px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.forgot-password :hover {
+    color: blue;
+}
